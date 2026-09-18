@@ -7,13 +7,13 @@
   <img src="https://img.shields.io/badge/TCP%20Socket-20232A?style=for-the-badge" alt="TCP Socket" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 A lightweight bridge that subscribes to `/mavros/state` and streams the vehicle state as JSON over a TCP socket, so non-ROS applications (CLI, GUI, web) can monitor MAVROS without ROS dependencies.
 
 **Quick start:** `rosrun <your_package> socket_server.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Bu depo (repository), MAVROS durum bilgilerini (`/mavros/state`) harici uygulamalara aktarmak için basit ve güvenilir bir TCP soket köprüsü sağlar.
 
