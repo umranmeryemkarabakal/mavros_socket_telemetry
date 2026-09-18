@@ -1,5 +1,20 @@
 # ROS MAVROS Soket Telemetri Köprüsü (Socket Telemetry Bridge)
 
+<p>
+  <img src="https://img.shields.io/badge/ROS%20Noetic-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS Noetic" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MAVROS-1F2A44?style=for-the-badge" alt="MAVROS" />
+  <img src="https://img.shields.io/badge/TCP%20Socket-20232A?style=for-the-badge" alt="TCP Socket" />
+</p>
+
+## 🇬🇧 Overview
+
+A lightweight bridge that subscribes to `/mavros/state` and streams the vehicle state as JSON over a TCP socket, so non-ROS applications (CLI, GUI, web) can monitor MAVROS without ROS dependencies.
+
+**Quick start:** `rosrun <your_package> socket_server.py`
+
+## 🇹🇷 Proje hakkında
+
 Bu depo (repository), MAVROS durum bilgilerini (`/mavros/state`) harici uygulamalara aktarmak için basit ve güvenilir bir TCP soket köprüsü sağlar.
 
 Proje, çalışan bir ROS–MAVROS ortamındaki drone telemetri verilerini, hafif (lightweight) ve JSON tabanlı bir TCP protokolü kullanarak ROS tabanlı olmayan sistemlere iletmek üzere tasarlanmıştır.
